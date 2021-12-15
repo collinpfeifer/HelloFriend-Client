@@ -1,0 +1,21 @@
+.Header {
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 5px 0px #dedede;
+  font-size: 1.3rem;
+}
+
+.NavItem {
+  a {
+    text-decoration: none;
+    color: black;
+    padding: 0 1.5rem;
+    border-left: solid #3ca0e7 2px;
+  }
+  transition: 2s;
+  margin: 0.5rem;
+
+  & a:hover {
+    color:#3ca0e7;
+  }
+}

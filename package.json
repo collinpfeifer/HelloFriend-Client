@@ -1,0 +1,25 @@
+{
+  "name": "hello-friend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^11.1.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-query": "^3.21.0",
+    "sass": "^1.36.0",
+    "sharp": "^0.28.3",
+    "socket.io-client": "^4.0.2",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.25",
+    "@types/react": "^17.0.1",
+    "typescript": "^4.1.3"
+  }
+}

@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+/* Home Page */
+.TopContent {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.Main {
+  color: #0e2f56;
+  font-weight: bold;
+  z-index: 2;
+  text-align: center;
+  height: 100vh;
+  margin-top: 10rem;
+}
+.MainPic {
+  margin: auto;
+}
+
+.Boxwrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10%;
+  padding-top: 15%;
+}
+.Box {
+  color: #0e2f56;
+  padding: 30px;
+  margin: 2%;
+  background: white;
+  width: 30%;
+  border: 1px solid #d6d6d6;
+  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  transition: 0.2s all;
+}
+.Boxwrap:hover .Box {
+  filter: blur(3px);
+  opacity: 0.5;
+  transform: scale(0.98);
+  box-shadow: none;
+}
+.Boxwrap:hover .Box:hover {
+  transform: scale(1);
+  filter: blur(0px);
+  opacity: 1;
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+}
+
+.InformationalContent {
+  text-align: center;
+  z-index: 5;
+  position: relative;
+  width: 100%;
+  color: #0e2f56;
+}
+
+.InformationalText {
+  width: 60%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 10%;
+  color: #f8f8ff;
+}
+
+.InformationalText p {
+  font-size: 20px;
+  padding-right: 20%;
+  padding-left: 20%;
+  line-height: 220%;
+}
+/* Contact Page*/
+.ContactContent {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  padding-top: 7%;
+  align-items: center;
+  width: 100%;
+  color: #cc0000;
+  font-size: 26px;
+  padding-bottom: 32.8%;
+}
+.ContactContent p {
+  font-size: 18px;
+  color: #0e2f56;
+}
+/* Support Page */
+.SupportContent {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  padding-top: 7%;
+  align-items: center;
+  width: 100%;
+  color: #cc0000;
+  font-size: 26px;
+  padding-bottom: 26.8%;
+}
+.SupportContent p {
+  font-size: 18px;
+  color: #0e2f56;
+}
+
+/* Release Page */
+.ReleaseContent {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  padding-top: 7%;
+  align-items: center;
+  width: 100%;
+  color: #cc0000;
+  font-size: 26px;
+  padding-bottom: 9%;
+}
+
+.ReleaseContent p {
+  color: #0e2f56;
+  font-size: 20px;
+}
+
+.ReleaseContent button {
+  background-color: #0e2f56;
+  color: white;
+}
+
+.ReleaseContent textarea {
+  font-size: 25px;
+  border: 0px;
+  height: auto;
+  height: 100%;
+  width: 100%;
+  color: #0e2f56;
+}
+
+.ReleaseInput {
+  margin-right: auto;
+  margin-left: auto;
+  width: 45%;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15),
+    /* The second layer */ 0 10px 0 -5px #eee,
+    /* The second layer shadow */ 0 10px 1px -4px rgba(0, 0, 0, 0.15),
+    /* The third layer */ 0 20px 0 -10px #eee,
+    /* The third layer shadow */ 0 20px 1px -9px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+}
+
+/* Body*/
+body {
+  font-family: 'Arvo', serif;
+  padding: 0;
+  margin: 0;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  color: white;
+  height: 20px;
+}
+
